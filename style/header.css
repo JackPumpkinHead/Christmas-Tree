@@ -46,6 +46,4 @@
 .header__consultation:focus {
     outline-color: var(--second-color);
 }
-/*Пофиксить цвет переключения табом на кнопку
-бордер должен быть чёрный*/
 
