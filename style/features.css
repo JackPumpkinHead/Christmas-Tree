@@ -1,0 +1,21 @@
+.features {
+    background-color: var(--second-bg-color);
+    padding: 40px 0;
+    color: var(--main-color);
+}
+
+.features__list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.features__item {
+    flex-basis: 236px;
+    padding-top: 115px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+}
