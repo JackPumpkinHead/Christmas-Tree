@@ -18,4 +18,22 @@
     font-size: 18px;
     line-height: 130%;
     letter-spacing: 0.04em;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.features__item_one {
+    background-image: var(--url-features-one);
+}
+
+.features__item_two {
+    background-image: var(--url-features-two);
+}
+
+.features__item_three {
+    background-image: var(--url-features-three);
+}
+
+.features__item_four {
+    background-image: var(--url-features-four);
 }
