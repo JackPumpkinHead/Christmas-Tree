@@ -44,7 +44,7 @@
 }
 
 .header__consultation:focus {
-    outline-color: var(--second-color);
+    outline: 2px solid var(--second-color);
 }
 
 @media (max-width: 1440px) {
