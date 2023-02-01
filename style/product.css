@@ -82,7 +82,7 @@
 
 .product__button:hover {
     background-color: var(--main-color);
-    color: var(--main-color);
+    color: var(--main-bg-color);
     border-color: var(--main-bg-color);
 }
 
