@@ -12,6 +12,7 @@
         width: 115px;
         height: 55px;
     }
+
 }
 
 @media (max-width: 580px) {
@@ -19,4 +20,5 @@
         width: 73px;
         height: 35px;
     }
+
 }

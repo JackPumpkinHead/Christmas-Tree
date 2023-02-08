@@ -21,7 +21,6 @@
 
 .modal__close:hover {
     color: var(--second-color);
-
 }
 
 .modal__close:active {
@@ -113,6 +112,7 @@
         font-size: 16px;
         border-radius: 8px;
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -147,6 +147,7 @@
         border-radius: 6px;
         padding: 8px 20px;
     }
+
 }
 
 @media (max-width: 760px) {
@@ -177,4 +178,5 @@
         border-radius: 6px;
         padding: 5px 14px;
     }
+
 }
