@@ -41,6 +41,7 @@
     .navigation__link {
         font-size: 16px;
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -70,6 +71,7 @@
     .navigation__link:before {
         content: none;
     }
+
 }
 
 @media (max-width: 760px) {
@@ -81,9 +83,6 @@
     .navigation__item {
         flex-basis: calc(50% - 6px);
     }
-}
-
-@media (max-width: 580px) {
 
 }
 

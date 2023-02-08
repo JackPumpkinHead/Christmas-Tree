@@ -46,6 +46,7 @@
         background-size: 80px;
         padding-top: 90px;
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -59,6 +60,7 @@
         background-size: 60px;
         padding-top: 70px;
     }
+
 }
 
 @media (max-width: 760px) {
@@ -71,6 +73,7 @@
     .features__item {
         flex-basis: 200px;
     }
+
 }
 
 @media (max-width: 580px) {
@@ -84,4 +87,5 @@
         background-size: 50px;
         padding-top: 55px;
     }
+
 }
