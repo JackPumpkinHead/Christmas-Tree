@@ -12,11 +12,7 @@
     font-size: 18px;
     line-height: 130%;
     letter-spacing: 0.04em;
-    height: 100%;
-    display: block;
 }
-
-
 
 @media (max-width: 1200px) {
     .timer {

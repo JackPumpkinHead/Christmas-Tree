@@ -11,7 +11,7 @@ const timer = () => {
     timerText.classList.add('timer__text');
     timerCount.classList.add('timer__count');
 
-    timerText.textContent = 'До конца расспродажи осталось:';
+    timerText.textContent = 'До конца расспродажи осталось: ';
 
     timerText.append(timerCount);
     timer.append(timerText)
@@ -31,7 +31,7 @@ const timer = () => {
         const m = declOfNum(minutes, ['минута', 'минуты', 'минут']);
         const h = declOfNum(hours, ['час', 'часа', 'часов']);
         const d = declOfNum(days, ['день', 'дня', 'дней']);
-
+        
         timerCount.textContent = `${d} ${h} ${m} ${s}`;
 
         if (timeRemaining > 0) {
@@ -40,6 +40,7 @@ const timer = () => {
             timer.remove();
         }
     }
+    startTimer();
 }
-
+    
 timer();
